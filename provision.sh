@@ -9,7 +9,7 @@ then
     echo "export deveui=\"$deveui\"" >> ~/.bashrc
     echo "export appeui=\"$appeui\"" >> ~/.bashrc
     echo "export appkey=\"$appkey\"" >> ~/.bashrc
-    echo "{\"deveui\": $deveui,\"appeui\": $appeui,\"appkey\": $appkey}" > LoRaWAN/keys.json
+    echo "{\"deveui\": $deveui,\"appeui\": $appeui,\"appkey\": $appkey}" > ~/LoRaWAN/keys.json
 fi
 
 

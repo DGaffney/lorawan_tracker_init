@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y tmux htop uuid-runtime gpsd gpsd-clients jq python3-smbus python3-dev i2c-tools
+sudo apt-get install -y tmux htop uuid-runtime gpsd gpsd-clients jq python3-smbus python3-dev i2c-tools p7zip i2c-tools
 sudo pip3 install adafruit-circuitpython-ssd1306
 sudo pip3 install adafruit-circuitpython-framebuf
 sudo pip3 install adafruit-circuitpython-rfm9x
